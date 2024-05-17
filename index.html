@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body class="font-lato">
-    <div class="flex flex-row justify-between bg-bannerGray px-32 py-2 text-white">
+    <div class="hidden lg:flex flex-row justify-between bg-bannerGray px-32 py-2 text-white">
         <div class="flex flex-row gap-5">
             <p class="font-semibold text-sm">About the University <i class="px-1 text-gray-400 fa-solid fa-caret-down"></i></p>
             <p class=" text-sm">Faculties <i class="px-1 text-gray-400 fa-solid fa-caret-down"></i></p>
@@ -31,8 +31,9 @@
         </div>
     </div>
 
-    <section class="navbar bg-navGray px-32">
+    <section class="navbar bg-navGray px-8 lg:px-32">
         <div class="flex flex-row gap-14 w-full py-7">
+            <i class="fa-solid fa-bars text-3xl"></i>
             <div class="w-1/3">
                 <img src="src/Assets/8a08e34d-43a0-4aa9-980d-281d77cfae66.svg" alt="">
             </div>
@@ -58,7 +59,7 @@
                 <i class="fa-solid fa-angle-right text-white"></i>
             </div>
 
-            <div class="bg-heroGray absolute w-1/3 bottom-24 left-32 p-7 flex flex-col gap-4 text-white">
+            <div class="bg-heroGray lg:absolute w-1/3 bottom-24 left-32 p-7 flex flex-col gap-4 text-white">
                 <p class="font-semibold text-2xl">Let's grow together?</p>
                 <p>The new and ambitious U.Porto Programme for Multidisciplinary Education and Training is offering hundreds of training opportunities for young people and adults.</p>
                 <button class="w-1/5 bg-midBrown font-black text-heroBtnGray px-1">See More</button>
@@ -74,7 +75,7 @@
                 <p class="w-1/3 text-3xl font-semibold">Your future is here!</p>
                 <p class="w-2/3 px-2 text-xl font-light"> Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
             </div>
-            <div class="my-10 py-10 ">
+            <div class="my-10 py-10 border-t">
                 <p class="text-3xl font-semibold my-5">Which course are you looking for?</p>
 
                 <div class="flex flex-row  my-5">
@@ -238,8 +239,85 @@
         </div>
     </section>
 
-    <section class="footer bg-footerGray">
-        <img src="src/Assets/img_minerva_footer.png" class="h-38" alt="">
+    <section class="footer bg-footerGray px-32 py-20 mb-40 text-white font-light text-sm relative ">
+        <div class="">
+        <img src="src/Assets/img_minerva_footer.png" class="absolute top-0 left-0 h-4/5" alt="">
+        <div>
+            <div class="flex">
+                <p class="w-1/5 text-midBrown font-semibold">Media</p>
+                <ul class="w-1/5 flex flex-col gap-5">
+                    <li>U.Porto News</li>
+                    <li>Brochures and Presentations</li>
+                </ul>
+                <ul class="w-1/5">
+                    <li>U.Porto Agenda</li>
+                </ul>
+                <ul class="w-1/5">
+                    <li>Media Contacts</li>
+                </ul>
+                <ul class="w-1/5">
+                    <li>Image Manual</li>
+                </ul>
+            </div>
+
+            <div class="flex my-20">
+                <p class="w-1/5 text-midBrown font-semibold">U.Porto Portals</p>
+                <ul class="w-1/5 flex flex-col gap-8">
+                    <li>CDUP - U.Porto Sports Centre</li>
+                    <li>Educational Innovation</li>
+                    <li>Peer Mentoring</li>
+                </ul>
+                <ul class="w-1/5 flex flex-col justify-between">
+                    <li>Social Support Services of the University of Porto (SASUP)</li>
+                    <li>U.Porto PRESS</li>
+                    <li>AcademiaUP</li>
+                </ul>
+                <ul class="w-1/5 flex flex-col justify-between">
+                    <li>Former Students Portal</li>
+                    <li>U.Porto Innovation</li>
+                    <li>Complaints Portal</li>
+                </ul>
+                <ul class="w-1/5 flex flex-col justify-between">
+                    <li>UPdigital Portal</li>
+                    <li>Documentation and Information Services and Resources (SRDI)</li>
+                    <li>SIGARRA U.Porto</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="my-20 border-gray-400">
+
+        <div class="flex">
+            <div class="text-2xl flex flex-row gap-10 w-2/3">
+                <i class="fa-solid fa-newspaper"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="w-1/3 flex flex-col gap-4 text-md">
+                <p class="font-semibold text-md">Contacts</p>
+                <p class="font-medium">Reitoria da Universidade do Porto</p>
+                <div>
+                <p>Praça Gomes Teixeira</p>
+                <p> 4099-002 Porto, Portugal</p>
+                </div>
+                <div>
+                    <p>Tel.: (+351) 220 408 000</p>
+                    <p>E-mail: up@up.pt</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-5 text-md">
+            <p class="font-medium">© University of Porto 2024 </p>
+            <p>Personal Data Protection</p>
+            <p>Privacy Policy</p>
+            <p>Accessibility</p>
+        </div>
+    </div>
+
 
     </section>
 
