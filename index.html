@@ -32,12 +32,17 @@
     </div>
 
     <section class="navbar bg-navGray px-8 lg:px-32">
-        <div class="flex flex-row gap-14 w-full py-7">
-            <i class="fa-solid fa-bars text-3xl"></i>
-            <div class="w-1/3">
+        <div class="flex flex-row lg:gap-14 w-full py-5 lg:py-7 justify-between">
+            <div class="flex gap-3 lg:hidden ">
+            <i class="my-auto text-black lg:hidden fa-regular fa-bars font-extralight text-3xl"></i>
+            <img src="src/Assets/c515dc07-8ca3-4831-90fd-15e33cca2f18.svg" class="h-12" alt="">
+            </div>
+            <img src="src/Assets/b5df8019-46ca-4497-9253-7f681238fd4f.svg" class="h-8 my-auto lg:hidden" alt="">
+            <div class="hidden lg:block w-1/3">
                 <img src="src/Assets/8a08e34d-43a0-4aa9-980d-281d77cfae66.svg" alt="">
             </div>
-             <div class="flex my-auto gap-5 flex-row font-bold text-xl">
+
+             <div class="hidden lg:flex my-auto gap-5 flex-row font-bold text-xl">
                 <p>STUDY</p>
             <p>RESEARCH</p>
             <p>INNOVATE</p>
@@ -50,46 +55,46 @@
     </section>
     <section class="main">
         <div class="relative flex">
-            <img class="object-cover" src="src/Assets/programa-de-formacao-multidisplinar-uporto-s.format-jpeg.jpeg" alt="">
+            <img class="object-cover h-[50vh] lg:h-auto" src="src/Assets/programa-de-formacao-multidisplinar-uporto-s.format-jpeg.jpeg" alt="">
         
-            <div class="bg-midBrown p-3 w-10 absolute top-1/2">
+            <div class="bg-midBrown p-3 w-10 absolute top-1/4 lg:top-1/2">
                 <i class="fa-solid fa-angle-left text-white"></i>
             </div>
-            <div class="bg-midBrown p-3 w-10 absolute my-auto top-1/2 right-0">
+            <div class="bg-midBrown p-3 w-10 absolute my-auto top-1/4 lg:top-1/2 right-0">
                 <i class="fa-solid fa-angle-right text-white"></i>
             </div>
 
-            <div class="bg-heroGray lg:absolute w-1/3 bottom-24 left-32 p-7 flex flex-col gap-4 text-white">
-                <p class="font-semibold text-2xl">Let's grow together?</p>
-                <p>The new and ambitious U.Porto Programme for Multidisciplinary Education and Training is offering hundreds of training opportunities for young people and adults.</p>
-                <button class="w-1/5 bg-midBrown font-black text-heroBtnGray px-1">See More</button>
+            <div class="bg-heroGray opacity-90 absolute w-full lg:w-1/3 bottom-0 lg:bottom-24 lg:left-32 p-7 flex flex-col gap-4 text-white">
+                <p class="font-semibold text-lg  lg:text-2xl">Let's grow together?</p>
+                <p class="hidden lg:block">The new and ambitious U.Porto Programme for Multidisciplinary Education and Training is offering hundreds of training opportunities for young people and adults.</p>
+                <button class="w-1/4 lg:w-1/5 bg-midBrown font-black text-heroBtnGray px-1">See More</button>
 
             </div>
         </div>
         </div>
 
 
-        <div class="study px-32 py-32 flex flex-col gap-8">
-            <p class="text-midBrown text-5xl font-light ">Study</p>
-            <div class="flex flex-row">
-                <p class="w-1/3 text-3xl font-semibold">Your future is here!</p>
-                <p class="w-2/3 px-2 text-xl font-light"> Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
+        <div class="study px-4 lg:px-32 py-10 lg:py-32 flex flex-col gap-8">
+            <p class="text-midBrown text-4xl lg:text-5xl my-5 lg:my-0 font-light ">Study</p>
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-0">
+                <p class="lg:w-1/3 text-3xl font-semibold">Your future is here!</p>
+                <p class="lg:w-2/3 lg:px-2 text-xl font-light"> Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
             </div>
-            <div class="my-10 py-10 border-t">
+            <div class="my-10 lg:py-10 border-t">
                 <p class="text-3xl font-semibold my-5">Which course are you looking for?</p>
 
-                <div class="flex flex-row  my-5">
-                    <div class="flex flex-col gap-5 w-2/3 pr-4">
-                        <select class="border-2 rounded-sm border-black p-3 text-xl" name="" id="">
-                            <option value="All">All</option>
-                            <option value="All">Bachelor's and Integrated Master's Degrees</option>
-                            <option value="All">Master's Degrees</option>
-                            <option value="All">Doctorates</option>
-                        </select>
+                <div class="flex flex-col lg:flex-row  lg:my-5">
+                    <div class="flex flex-col gap-5 lg:w-2/3 lg:pr-4">
+                            <select class="border-2 rounded-sm border-black p-3 text-xl" name="" id="">
+                                <option value="All">All</option>
+                                <option value="All">Bachelor's and Integrated Master's Degrees</option>
+                                <option value="All">Master's Degrees</option>
+                                <option value="All">Doctorates</option>
+                            </select>
                         <input type="text" class="border-2 rounded-sm border-black py-3 px-3 text-xl" placeholder="Please enter course keywords...">
                         <button class="p-3 text-2xl bg-midBrown text-white font-bold">Search</button>
                     </div>
-                    <div class="w-1/3 flex flex-col gap-3 pl-4">
+                    <div class="lg:w-1/3 mt-14 lg:mt-0 flex flex-col gap-3 lg:pl-4">
                         <p class="text-2xl">Courses from A to Z:</p>
                         <p class="underline text-2xl font-light">Bachelor's and Integrated Master's Degrees</p>
                         <p class="underline text-2xl font-light">Master's Degrees</p>
@@ -99,15 +104,15 @@
             </div>
         </div>
 
-        <div class="bg-newsGray px-32 py-20">
-            <div class="flex flex-row justify-between py-10">
+        <div class="bg-newsGray px-4 lg:px-32 lg:py-20">
+            <div class="flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between py-10">
                 <p class="text-midBrown text-5xl font-light ">News</p>
                 <p class="font-bold text-midBrown">All news <i class="pl-3 fa-solid fa-circle-chevron-right"></i></p>
             </div>
 
 
             <div class="flex py-5 gap-7">
-                <div class="bg-white w-2/5">
+                <div class="bg-white lg:w-2/5">
                     <div class="py-7 h-1/2 justify-between">
                     <div><p class="px-5 text-midBrown">Desporto</p>
                     <p class="px-5 text-xl my-5 font-bold">U.Porto vai organizar Europeu Universitario de Futebol em 2027</p>
@@ -116,9 +121,10 @@
                     </div>
                     <img class="h-1/2" src="https://noticias.up.pt/wp-content/uploads/2024/05/aerea-frente-edificios.jpg" alt="">
                 </div>
-                <div class="bg-white w-2/5 relative">
+                <div class="bg-white w-2/5 relative lg:block hidden ">
                     <div class="py-7 h-1/2 flex flex-col justify-between">
-                        <div><p class="px-5 text-midBrown">Campus e Communidade  |  Ciencia e Inovacao  |  Multimedia  |  Video</p>
+                        <div>
+                            <p class="px-5 text-midBrown">Campus e Communidade  |  Ciencia e Inovacao  |  Multimedia  |  Video</p>
                         <p class="px-5 text-xl my-5 font-bold">Mais de 1000 estudantes foram ao IJUP "abrir as portas" da Ciencia</p>
                     </div>
                         <p class="px-5 text-gray-500">13 May 2024</p>
@@ -126,7 +132,7 @@
                         <img class="h-1/2" src="https://noticias.up.pt/wp-content/uploads/2024/05/ijup-2024_31.jpg" alt="">
                 
                 </div>
-                <div class="bg-white w-1/5 relative">
+                <div class="bg-white w-1/5 relative lg:block hidden">
                     <div class="py-7 h-1/2 flex flex-col justify-between">
                    <div><p class="px-5 text-midBrown">Cultura</p>
                     <p class="pl-5 text-xl my-5 font-bold">MHNC-UP abre "fora de para celebrar os Museu Ciencia</p>
@@ -149,80 +155,86 @@
             </div>
         </div>
 
-        <div class="flex mx-32 py-20">
-            <div class="w-2/5 relative">
-                <img src="https://www.up.pt/portal/static/images/minerva_01.png" class="absolute top-0 right-0 h-[350px]" alt="">
+        <div class="flex flex-col lg:flex-row mx-4 lg:mx-32 py-20">
+            <div class="lg:w-2/5 relative">
+                <img src="https://www.up.pt/portal/static/images/minerva_01.png" class="hidden lg:block absolute top-0 right-0 h-[350px]" alt="">
                 
-                <p class="text-midBrown text-5xl font-light w-3/5">We are a University of Excellence</p>
+                <p class="text-midBrown text-4xl lg:text-5xl font-light lg:w-3/5">We are a University of Excellence</p>
             </div>
 
-            <div class="w-3/5 flex flex-col gap-7 h-full font-light text-xl px-10">
+            <div class="lg:w-3/5 flex flex-col gap-7 h-full font-light text-xl py-10 lg:py-0 lg:px-10">
                 <p>With over 100 years of history, the University of Porto is a <strong>leading teaching and scientific research institution in Portugal and worldwide.</strong></p>
                 <p>Considered <strong>the best Portuguese University and one of the best 100 European institutions</strong> according to the most important Higher Education rankings, U.Porto combines quality teaching and excellent research with the best academic experience.</p>
                 <p><strong>We are waiting for you!</strong></p>
-                <p class="font-bold text-midBrown">See More<i class="pl-2 text-md fa-solid fa-circle-chevron-right"></i></p>
+                <p class="font-bold text-sm lg:text-lg text-midBrown">See More<i class="pl-2 text-md fa-solid fa-circle-chevron-right"></i></p>
             </div>
         </div>
 
-        <div class="px-32 py-24 my-10 border-t-4">
+        <div class="lg:px-32 px-5 lg:py-24 lg:my-10 border-t-4">
             <p class="text-midBrown text-5xl font-light w-3/5">Research</p>
-            <div class="flex flex-row">
+            <div class="flex flex-col lg:flex-row">
                 <div class="flex flex-col gap-5 font-light my-10 text-lg">
                     <p class="text-3xl font-bold">Research University</p>
                     <p>With <span class="text-midBrown my-5">48 research units</span> and a highly qualified scientific community, the University of Porto is <strong>one of the largest producers of science in Portugal </strong>, contributing to almost <span class="text-midBrown">25% of all national scientific output</span>.</p>
                     <p>
                     The excellence of our scientific ecosystem is particularly evident in the <span class="text-midBrown">leading position the University occupies in the main international rankings of Higher Education. </span></p>
                 </div>
-                <div class="my-10">
+                <div class="my-7 lg:my-10">
                     <img src="https://www.up.pt/portal/media/images/investigar-home_destaque.format-jpeg.jpg" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="bg-midBrown py-10 text-center flex flex-col gap-7 text-white relative">
+        <div class="bg-midBrown py-12 lg:py-10 text-center flex flex-col gap-7 text-white relative">
             <img src="src/Assets/download.svg" class="text-white mx-auto w-28" alt="">
-            <div>
+            <div class="mx-10">
             <p class="font-bold text-4xl">U.PORTO IN FIGURES</p>
             <p class="text-3xl font-light">2022/2023</p>
             </div>
 
 
-            <hr class="mx-32">
+            <hr class="mx-4 lg:mx-32">
 
-            <div class="flex text-center justify-between mx-10">
-                <div class="w-1/3">
+            <div class="flex flex-col lg:flex-row text-center justify-between gap-10 mx-10">
+                <div class="lg:w-1/3">
                     <p class="font-black text-4xl">+300</p>
                     <p  class="text-3xl font-light">Courses</p>
                 </div>
-                <div class="w-1/3">
+                <div class="lg:w-1/3">
                     <p class="font-black text-4xl">+35.000</p>
                     <p  class="text-3xl font-light">Students enrolled</p>
                 </div>
-                <div class="w-1/3">
+                <div class="lg:w-1/3">
                     <p class="font-black text-4xl">48</p>
                     <p  class="text-3xl font-light">Research Units</p>
                 </div>
             </div>
-            <p class="font-bold text-white absolute top-16 right-32">Learn More<i class="pl-2 text-md fa-solid fa-circle-chevron-right"></i></p>
+            <p class="font-bold text-white absolute top-10 right-2 lg:right-32">Learn More<i class="pl-2 text-md fa-solid fa-circle-chevron-right"></i></p>
         </div>
-        <div class="bg-faqGray p-32">
+        <div class="bg-faqGray px-4 py-12 lg:p-32">
             <p class="text-midBrown text-5xl font-light">Frequently asked questions</p>
-            <div class="flex gap-7 text-lg text-gray-500 font-medium my-5  border-b-2 border-gray-300">
+            <div class="hidden lg:flex gap-7 text-lg text-gray-500 font-medium my-5  border-b-2 border-gray-300">
                 <p class="text-black font-bold border-b border-black py-5">International Students</p>
                 <p class="py-5">Prospective Students</p>
                 <p class="py-5">Professionals </p>
                 <p class="py-5">Alumni </p>
                 <p class="py-5">U.Porto Students </p>
             </div>
-        <div class="flex">
-            <div class="w-1/2 relative">
-                <p class="text-4xl font-bold py-5">International Students</p>
+            <select class="lg:hidden border-2 rounded-sm border-black py-3 pl-3 text-md my-10 bg-transparent" name="" id="">
+                <option value="All">International Students</option>
+                <option value="All">Bachelor's and Integrated Master's Degrees</option>
+                <option value="All">Master's Degrees</option>
+                <option value="All">Doctorates</option>
+            </select>
+        <div class="flex lg:flex-row flex-col">
+            <div class="lg:w-1/2 relative">
+                <p class="text-2xl lg:text-4xl font-bold py-5">International Students</p>
                 <p class="font-light text-xl">Welcome! In this area you will find the answers you need to 
                     start and make the most of your experience at the University.
                      We hope to help you... and welcome you soon!</p>
                      <p class="font-bold text-midBrown py-5">See More<i class="pl-2 text-md fa-solid fa-circle-chevron-right"></i></p>   
                      <div class="absolute bottom-0">
-                        <div class="flex gap-2">
+                        <div class="hidden lg:flex gap-2">
                             <div class="bg-gray-400 p-3 w-10">
                                 <i class="fa-solid fa-angle-left text-white"></i>
                             </div>
@@ -232,14 +244,14 @@
                         </div>
                     </div>        
             </div>
-            <div class="w-1/2">
+            <div class="lg:w-1/2 -order-1 lg:order-0">
                 <img src="https://www.up.pt/portal/media/images/gate-estudantes-internacionais.format-jpeg.jpg" alt="">
             </div>
         </div>
         </div>
     </section>
 
-    <section class="footer bg-footerGray px-32 py-20 mb-40 text-white font-light text-sm relative ">
+    <section class="footer bg-footerGray px-4 lg:px-32 py-20 mb-40 text-white font-light text-sm relative ">
         <div class="">
         <img src="src/Assets/img_minerva_footer.png" class="absolute top-0 left-0 h-4/5" alt="">
         <div>
