@@ -4,11 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        umutuku:"#FFF232"
+        umutuku:"#FFF232",
+        bannerGray:"rgb(51,51,51)"
       },
-      fontFamily:{
-        myFOnt:""
-      }
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+        'danfo':['Danfo','serif'],
+        'lato':['lato','sans-serif'] 
+    }
     },
   },
   plugins: [],
