@@ -10,12 +10,15 @@ module.exports = {
         midBrown:"#A18A4D",
         heroGray:"#363735",
         heroBtnGray:"rgb(51,62,63)",
-        newsGray:"#F2F2F2"
+        newsGray:"#F2F2F2",
+        faqGray:"#F2F2F2",
+        footerGray:"#333333"
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif'],
         'danfo':['Danfo','serif'],
-        'lato':['lato','sans-serif'] 
+        'lato':['lato','sans-serif'],
+
     }
     },
   },
